@@ -1,12 +1,14 @@
 command /admin:
   permission: Admin.Commands.Help
-  permission message: I'm sorry you're not part of our administration team. If this is an error please report it to your developers right away.
+  permission message: You're not part of our administration team. If this is an error report it to your developers right away!
   trigger:
     make player execute command "/menu open Admin"
     
     
-    When making this you need to make sure you have CreateYourOwnMenus as it will help because CYOM is a simple system where you can create, open, delete, and edit menus.
-    When making a button for a menu remember to do /menu script add {inset command} so that the button will work.
     
-   I have a server that uses CYOM. It's 1.14.4 and the IP is 213.202.242.29:17846 and play.ninechunks.com
-   If you decide to look at the things I've made you can go on it and use /oreshop, /woodshop, and /spawnershop. All of which I made with a script just like this.
+    
+When making this you need to make sure you have CreateYourOwnMenus as it will help because CYOM is a simple system where you can create, open, delete, and edit menus.
+When making a button for a menu remember to do /menu script add {inset command} so that the button will work.
+
+I have a server that uses CYOM. It's 1.14.4 and the IP is 213.202.242.29:17846 and play.ninechunks.com
+If you decide to look at the things I've made you can go on it and use /oreshop, /woodshop, and /spawnershop. All of which I made with a script just like this.
